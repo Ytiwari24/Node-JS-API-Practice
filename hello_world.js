@@ -1,13 +1,3 @@
-///**********SAMPLE PROGRAM **********///
-// var http = require ('http');
-// http.createServer(function(req,res){
-//     res.write('Hii This is Future X');
-//     res.end();
-
-// }).listen(8081);
-
-
-
 
 var express=require('express');
 var app = express();
