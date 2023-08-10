@@ -12,6 +12,7 @@ app.use(express.urlencoded({extended:false}))
 
 app.use('/api/users',require('./routes/api/users'))
 app.use('/events',require('./routes/api/events'))
+app.use('/login',require('./routes/api/login'))
 
 // console.log(events);
 // app.listen(4000,'0.0.0.0', ()=>{
